@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3741919c91.js" crossorigin="anonymous"></script>
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="box">
+        <div id="pay">
+            <p>
+            <h1>Payment for example</h1>
+            </p>
+        </div>
+        <div>
+            <div class="red">
+                <p>Some fields are missing</p>
+            </div>
+            <div class="top">
+                <div id="g1">
+                    <strong>
+                        <h3>Card #</h3>
+                    </strong>
+                    <div class="x">
+                        <input id="ca" type="text" placeholder="XXXXXXXXXXXX" />
+                    </div>
+                </div>
+                <div id="g2">
+                    <strong>
+                        <h3>CVC #</h3>
+                    </strong>
+                    <div class="o">
+                        <input id="cv" type="text" placeholder="0000" />
+                    </div>
+                </div>
+                <div id="g3">
+                    <strong>
+                        <h3>Amount</h3>
+                    </strong>
+                    <div class="a">
+                        <i class="fa-sharp fa-solid fa-dollar-sign fa-xl"></i>
+                        <input id="am" type="text" placeholder="Amount" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot">
+            <div>
+                <div class="fl">
+                    <h3>First Name</h3>
+                    <div class="f1">
+                        <input id="f2" type="text" />
+                    </div>
+                </div>
+                <div class="c3">
+                    <h3>City</h3>
+                    <div class="c1">
+                        <input id="c2" type="text" />
+                    </div>
+                </div>
+                <div class="w1">
+                    <h3>we accept</h3>
+                    <div>
+                        <form>
+                            <label for="Master"><i class="fa-brands fa-cc-mastercard fa-xl">&nbsp;</i></label>
+							<input type="radio" name="gender" value="Master" />
+                            <label for="Visa"><i class="fa-brands fa-cc-visa fa-xl">&nbsp;</i></label>
+							<input type="radio" name="gender" value="Visa" />
+                            <label for="diners"><i class="fa-brands fa-cc-diners-club fa-xl">&nbsp;</i></label>
+							<input type="radio" name="gender" value="diners" />
+                            <label for="amex"><i class="fa-brands fa-cc-amex fa-xl">&nbsp;</i></label>
+							<input type="radio" name="gender" value="amex" />
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="l3">
+                    <h3>Last Name</h3>
+                    <div class="l1">
+                        <input id="l2" type="text" />
+                    </div>
+                </div>
+                <div>
+                    <div class="t2">
+                        <div class="sta">
+                            <div class="st2">
+                                <h3>State</h3>
+                                <form class="st">
+                                    <select id="st3">
+                                        <option value="FL">FL</option>
+                                        <option value="OH">OH</option>
+                                    </select>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="p3">
+                            <h3>Postal Code</h3>
+                            <div class="p1">
+                                <input id="p2" type="text" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3>Message</h3>
+                    <div class="m1">
+                        <input id="m2" type="text" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="bot2">
+            <div class="bot3">
+                <button class="button button1">Cancel</button>
+                <button class="button button2">Send</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
